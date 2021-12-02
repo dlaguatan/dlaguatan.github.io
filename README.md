@@ -1,2 +1,2 @@
 # dlaguatan.github.io
-Egypt files
+This is my Egyptian website that details beard hierarchies. 
