@@ -1,0 +1,107 @@
+
+@charset 'utf-8';
+
+
+
+@font-face {
+    font-family: zen;
+    src: url('ZenAntiqueSoft-Regular.ttf');
+}
+
+html {
+-webkit-text-size-adjust: 100%; 
+scroll-behavior: smooth; 
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+
+nav {
+padding-left: 2%;
+padding-right: 2%;
+display: flex;
+flex-direction: row; 
+justify-content: space-between;
+align-items: center;
+  }
+
+figure {
+overflow: hidden;
+width: 30%;
+max-width: 60%;
+height: auto;
+}
+
+h1{
+font-family: zen;
+font-size: 1.5em;
+}
+
+p {
+padding-left: 2%;
+padding-right: 2%;
+line-height: 1.3em;
+font-family: zen;
+font-size: 1.2em;
+margin-top: 2em;
+padding-bottom: 2em;
+
+}
+
+/* a:link, a:visited {
+    opacity: 0.5;
+    
+  }
+
+a:hover {
+color: blue;
+
+}
+
+a:active {
+opacity: 1;
+} */
+
+footer {
+padding: 10px;
+text-align: center;
+/* background-color: lightyellow; */
+border-top: 1em;
+}
+
+
+/* main {
+    
+/* background-color: lightyellow }*/
+
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-height: 45vh;
+overflow: hidden;
+width: 30%;
+max-width: 45vh;
+height: auto;
+}
+
+@media only screen and (min-width: 45em) {
+    article {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between; 
+width: 100%;
+gap: 2%;
+flex-basis: 100%;
+    }
+
+}
+
+.day {
+float: right;
+}
